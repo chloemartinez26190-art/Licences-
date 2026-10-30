@@ -1,0 +1,35 @@
+:root{--encre:#14201A;--braise:#D2441C;--papier:#F5F1E8;--trait:#D9D3C3;--gris:#5B6159}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--papier);color:var(--encre);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:640px;margin:0 auto;padding:28px 20px 56px}
+.marque{font:700 15px/1 Georgia,serif;letter-spacing:.04em;text-transform:uppercase;margin-bottom:36px;display:flex;align-items:center;gap:10px}
+.marque::before{content:"";width:12px;height:12px;background:var(--braise);display:inline-block}
+h1{font:700 clamp(32px,9vw,46px)/1.08 Georgia,"Times New Roman",serif;letter-spacing:-.01em;margin-bottom:18px}
+h2{font:700 24px/1.2 Georgia,serif;margin:44px 0 14px}
+p{margin-bottom:14px}
+.douleur{border-left:4px solid var(--braise);padding:4px 0 4px 16px;margin:22px 0;font-size:18px}
+.douleur strong{font-weight:700}
+ul.benefices{list-style:none;margin:20px 0}
+ul.benefices li{padding:14px 0;border-top:1px solid var(--trait)}
+ul.benefices li:last-child{border-bottom:1px solid var(--trait)}
+ul.benefices b{display:block;font-size:18px}
+.offre{background:var(--encre);color:var(--papier);padding:24px 20px;margin:36px 0 0}
+.offre h2{margin:0 0 6px;color:var(--papier)}
+.prix{font:700 40px/1 Georgia,serif;margin:14px 0 4px}
+.prix small{font:400 16px system-ui,sans-serif;opacity:.8}
+.jour{opacity:.8;font-size:15px;margin-bottom:18px}
+.bouton{display:block;width:100%;text-align:center;background:var(--braise);color:#fff;text-decoration:none;font:700 18px/1 system-ui,sans-serif;padding:20px 16px;min-height:56px;border:0}
+.bouton:active{transform:translateY(1px)}
+.note{font-size:14px;opacity:.85;margin-top:12px}
+.garantie{border:2px solid var(--papier);padding:12px 14px;margin:18px 0;font-size:15px}
+details{border-top:1px solid var(--trait);padding:14px 0}
+details:last-of-type{border-bottom:1px solid var(--trait)}
+summary{font-weight:700;cursor:pointer;min-height:24px}
+details p{margin:10px 0 0;color:var(--gris)}
+footer{max-width:640px;margin:0 auto;padding:20px 20px 40px;font-size:14px;color:var(--gris);border-top:1px solid var(--trait)}
+footer a{color:var(--gris);margin-right:14px}
+.legal h1{font-size:30px}
+.legal h2{font-size:20px;margin-top:28px}
+.champ{background:#FFE9A8;padding:0 4px;font-weight:700}
+a{color:var(--encre)}
